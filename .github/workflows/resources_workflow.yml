@@ -24,4 +24,5 @@ jobs: # Jobs defined in the workflow
       with:
         name: udatest
         template: cloudformation/udatest.yml
+        no-fail-on-empty-changeset: "1"
         
