@@ -23,5 +23,5 @@ jobs: # Jobs defined in the workflow
       uses: aws-actions/aws-cloudformation-github-deploy@v1
       with:
         name: udatest
-        template: udatest.yml
+        template: cloudformation/udatest.yml
         
